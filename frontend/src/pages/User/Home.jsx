@@ -55,7 +55,7 @@ const Home = () => {
       <BackgroundVideo />
       <FloatingWatch />
       {/* Hero Section */}
-      <div className="min-h-screen w-full lg:p-20 bg-[#F9FAFB] dark:bg-black flex flex-col lg:flex-row items-center justify-center gap-10">
+      <div className="min-h-screen w-full lg:p-20 bg-yellow-500 dark:bg-black flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Mobile Watch */}
         <motion.div
           className="w-full lg:hidden flex justify-center order-1"
@@ -81,7 +81,7 @@ const Home = () => {
             Redefining{" "}
             <span
               style={{ fontFamily: "'Great Vibes', cursive" }}
-              className="text-green-500"
+              className="text-yellow-400"
             >
               Luxury
             </span>
@@ -96,19 +96,19 @@ const Home = () => {
           <div className="mt-3 flex flex-row gap-3 w-full justify-center lg:justify-start">
             <Link
               to="/products"
-              className="bg-green-500 text-white uppercase px-4 py-2 rounded-xl font-bold min-w-[140px] flex items-center justify-center"
+              className="bg-yellow-500 text-white uppercase px-4 py-2 rounded-xl font-bold min-w-[140px] flex items-center justify-center"
             >
               Shop Now
             </Link>
 
             <button
               type="button"
-              className="relative border-2 border-green-500 px-4 py-2 rounded-xl min-w-[140px] flex items-center justify-center hover:cursor-pointer"
+              className="relative border-2 border-yellow-500 px-4 py-2 rounded-xl min-w-[140px] flex items-center justify-center hover:cursor-pointer"
             >
               <span className="pr-2 text-[#FEFEFE] font-bold">
                 Explore Collection
               </span>
-              <MoveRight className="size-[1.2rem] text-green-500" />
+              <MoveRight className="size-[1.2rem] text-yellow-500" />
             </button>
           </div>
         </motion.div>
