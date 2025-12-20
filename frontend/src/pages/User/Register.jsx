@@ -272,7 +272,7 @@ const Register = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-green-500 mt-4 hover:bg-green-700 text-white font-semibold py-2 rounded-lg transition-all disabled:opacity-50"
+            className="w-full bg-[#DAA520] mt-4 hover:bg-[#B8860B] text-white font-semibold py-2 rounded-lg transition-all disabled:opacity-50"
           >
             {loading ? "Creating Account..." : "Create Account"}
           </button>
@@ -290,7 +290,7 @@ const Register = () => {
           <div className="relative w-full flex items-center justify-center">
             <Link
               to={"/user/email-login"}
-              className="w-full text-center bg-green-500 hover:bg-green-700 text-white font-semibold py-2 rounded-lg transition-all"
+              className="w-full text-center bg-[#DAA520] hover:bg-[#B8860B] text-white font-semibold py-2 rounded-lg transition-all"
             >
               Continue with Email?
             </Link>

@@ -19,17 +19,17 @@ const Footer = () => {
         {/* Quick Links */}
         <div className="flex flex-col gap-2">
           <h3 className="font-semibold text-black dark:text-white mb-2">Quick Links</h3>
-          <Link to="/home" className="hover:text-green-500 transition-colors text-black dark:text-white">Home</Link>
-          <Link to="/about-us" className="hover:text-green-500 transition-colors text-black dark:text-white">About Us</Link>
-          <Link to="/products" className="hover:text-green-500 transition-colors text-black dark:text-white">Products</Link>
-          <Link to="/cart" className="hover:text-green-500 transition-colors text-black dark:text-white">Cart</Link>
+          <Link to="/home" className="hover:text-[#DAA520] transition-colors text-black dark:text-white">Home</Link>
+          <Link to="/about-us" className="hover:text-[#B8860B] transition-colors text-black dark:text-white">About Us</Link>
+          <Link to="/products" className="hover:text-[#B8860B] transition-colors text-black dark:text-white">Products</Link>
+          <Link to="/cart" className="hover:text-[#B8860B] transition-colors text-black dark:text-white">Cart</Link>
         </div>
 
         {/* Contact Info */}
         <div className="flex flex-col gap-2">
           <h3 className="font-semibold text-black dark:text-white mb-2">Contact</h3>
-          <p className="text-black dark:text-white">Email: <a href="mailto:info@timelesselegance.com" className="hover:text-green-500 text-black dark:text-white">luxora293@gmail.com</a></p>
-          <p className="text-black dark:text-white">Phone: <a href="tel:+91 9601666086" className="hover:text-green-500 text-black dark:text-white">+91 9601666086</a></p>
+          <p className="text-black dark:text-white">Email: <a href="mailto:info@timelesselegance.com" className="hover:text-[#DAA520] text-black dark:text-white">luxora293@gmail.com</a></p>
+          <p className="text-black dark:text-white">Phone: <a href="tel:+91 9601666086" className="hover:text-[#DAA520] text-black dark:text-white">+91 9601666086</a></p>
           <p className="text-black dark:text-white">Address: 123 Luxury St, Geneva, Switzerland</p>
         </div>
 
@@ -37,9 +37,9 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h3 className="font-semibol mb-2 text-black dark:text-white">Follow Us</h3>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-green-500 transition-colors text-black dark:text-white"><Facebook size={24} /></a>
-            <a href="#" className="hover:text-green-500 transition-colors text-black dark:text-white"><Instagram size={24} /></a>
-            <a href="#" className="hover:text-green-500 transition-colors text-black dark:text-white"><Twitter size={24} /></a>
+            <a href="#" className="hover:text-[#B8860B] transition-colors text-black dark:text-white"><Facebook size={24} /></a>
+            <a href="#" className="hover:text-[#B8860B] transition-colors text-black dark:text-white"><Instagram size={24} /></a>
+            <a href="#" className="hover:text-[#B8860B] transition-colors text-black dark:text-white"><Twitter size={24} /></a>
           </div>
         </div>
       </div>

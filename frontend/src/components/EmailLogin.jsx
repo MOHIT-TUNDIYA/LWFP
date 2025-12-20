@@ -74,7 +74,7 @@ const EmailLogin = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-green-500 mt-4 hover:bg-green-600 text-[#FFFFFF]
+            className="w-full bg-[#DAA520] mt-4 hover:bg-[#B8860B] text-[#FFFFFF]
                        font-semibold py-2 rounded-lg transition-all"
           >
             Submit
