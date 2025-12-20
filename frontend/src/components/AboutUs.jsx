@@ -87,7 +87,7 @@ const AboutUs = () => {
           className="mb-20 grid md:grid-cols-2 gap-12"
         >
           <div className="bg-[#E3F6F5] dark:bg-[#1E1E1E] p-8 rounded-2xl shadow-lg">
-            <h3 className="text-3xl font-semibold mb-4 text-[#2E7D32] dark:text-[#A5D6A7]">
+            <h3 className="text-3xl font-semibold mb-4 text-[#DAA520] dark:text-yellow-500">
               Our Vision
             </h3>
             <p className="text-gray-900 dark:text-white text-lg leading-relaxed">
@@ -97,7 +97,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="bg-[#E3F6F5] dark:bg-[#1E1E1E] p-8 rounded-2xl shadow-lg">
-            <h3 className="text-3xl font-semibold mb-4 text-[#2E7D32] dark:text-[#A5D6A7]">
+            <h3 className="text-3xl font-semibold mb-4 text-[#DAA520] dark:text-[#A5D6A7]">
               Our Mission
             </h3>
             <p className="text-gray-900 dark:text-white text-lg leading-relaxed">
@@ -121,7 +121,7 @@ const AboutUs = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-12">
             <div className="bg-[#F0FFF0] dark:bg-[#111111] p-6 rounded-xl shadow-md text-center">
-              <h3 className="font-semibold text-2xl mb-2 text-[#2E7D32] dark:text-[#A5D6A7]">
+              <h3 className="font-semibold text-2xl mb-2 text-[#DAA520] dark:text-[#A5D6A7]">
                 Integrity
               </h3>
               <p className="text-gray-900 dark:text-white">
@@ -129,7 +129,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="bg-[#F0FFF0] dark:bg-[#111111] p-6 rounded-xl shadow-md text-center">
-              <h3 className="font-semibold text-2xl mb-2 text-[#2E7D32] dark:text-[#A5D6A7]">
+              <h3 className="font-semibold text-2xl mb-2 text-[#DAA520] dark:text-[#A5D6A7]">
                 Excellence
               </h3>
               <p className="text-gray-900 dark:text-white">
@@ -137,7 +137,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="bg-[#F0FFF0] dark:bg-[#111111] p-6 rounded-xl shadow-md text-center">
-              <h3 className="font-semibold text-2xl mb-2 text-[#2E7D32] dark:text-[#A5D6A7]">
+              <h3 className="font-semibold text-2xl mb-2 text-[#DAA520] dark:text-[#A5D6A7]">
                 Innovation
               </h3>
               <p className="text-gray-900 dark:text-white">
@@ -145,7 +145,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="bg-[#F0FFF0] dark:bg-[#111111] p-6 rounded-xl shadow-md text-center">
-              <h3 className="font-semibold text-2xl mb-2 text-[#2E7D32] dark:text-[#A5D6A7]">
+              <h3 className="font-semibold text-2xl mb-2 text-[#DAA520] dark:text-[#A5D6A7]">
                 Customer Focus
               </h3>
               <p className="text-gray-900 dark:text-white">
@@ -153,7 +153,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="bg-[#F0FFF0] dark:bg-[#111111] p-6 rounded-xl shadow-md text-center">
-              <h3 className="font-semibold text-2xl mb-2 text-[#2E7D32] dark:text-[#A5D6A7]">
+              <h3 className="font-semibold text-2xl mb-2 text-[#DAA520] dark:text-[#A5D6A7]">
                 Sustainability
               </h3>
               <p className="text-gray-900 dark:text-white">
@@ -161,7 +161,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="bg-[#F0FFF0] dark:bg-[#111111] p-6 rounded-xl shadow-md text-center">
-              <h3 className="font-semibold text-2xl mb-2 text-[#2E7D32] dark:text-[#A5D6A7]">
+              <h3 className="font-semibold text-2xl mb-2 text-[#DAA520] dark:text-[#A5D6A7]">
                 Passion
               </h3>
               <p className="text-gray-900 dark:text-white">
@@ -193,7 +193,7 @@ const AboutUs = () => {
                 <img
                   src={`/team${i + 1}.jpg`}
                   alt={name}
-                  className="w-48 h-48 rounded-full mx-auto mb-4 object-cover border-4 border-green-500 dark:border-[#A5D6A7]"
+                  className="w-48 h-48 rounded-full mx-auto mb-4 object-cover border-4 border-yellow-500 dark:border-[#A5D6A7]"
                 />
                 <h3 className="font-semibold text-xl mb-1">{name}</h3>
                 <p className="text-gray-900 dark:text-white">
@@ -257,7 +257,7 @@ const AboutUs = () => {
                 <p className="text-lg italic mb-4 text-gray-900 dark:text-white">
                   "{review.text}"
                 </p>
-                <p className="font-semibold text-[#2E7D32] dark:text-[#A5D6A7]">
+                <p className="font-semibold text-[#DAA520] dark:text-[#A5D6A7]">
                   - {review.name}
                 </p>
               </div>
@@ -334,7 +334,7 @@ const AboutUs = () => {
           </p>
           <a
             href="/products"
-            className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-10 rounded-lg transition"
+            className="inline-block bg-[#DAA520] hover:bg-[#B8860B] text-white font-semibold py-4 px-10 rounded-lg transition"
           >
             Explore Collection
           </a>

@@ -55,7 +55,7 @@ const Home = () => {
       <BackgroundVideo />
       <FloatingWatch />
       {/* Hero Section */}
-      <div className="min-h-screen w-full lg:p-20 bg-yellow-500 dark:bg-black flex flex-col lg:flex-row items-center justify-center gap-10">
+      <div className="min-h-screen w-full lg:p-20 bg-[#DAA520] dark:bg-black flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Mobile Watch */}
         <motion.div
           className="w-full lg:hidden flex justify-center order-1"
@@ -81,7 +81,7 @@ const Home = () => {
             Redefining{" "}
             <span
               style={{ fontFamily: "'Great Vibes', cursive" }}
-              className="text-yellow-400"
+              className="text-[#DAA520]"
             >
               Luxury
             </span>
@@ -96,19 +96,19 @@ const Home = () => {
           <div className="mt-3 flex flex-row gap-3 w-full justify-center lg:justify-start">
             <Link
               to="/products"
-              className="bg-yellow-500 text-white uppercase px-4 py-2 rounded-xl font-bold min-w-[140px] flex items-center justify-center"
+              className="bg-[#DAA520] text-white uppercase px-4 py-2 rounded-xl font-bold min-w-[140px] flex items-center justify-center"
             >
               Shop Now
             </Link>
 
             <button
               type="button"
-              className="relative border-2 border-yellow-500 px-4 py-2 rounded-xl min-w-[140px] flex items-center justify-center hover:cursor-pointer"
+              className="relative border-2 border-[#DAA520] px-4 py-2 rounded-xl min-w-[140px] flex items-center justify-center hover:cursor-pointer"
             >
               <span className="pr-2 text-[#FEFEFE] font-bold">
                 Explore Collection
               </span>
-              <MoveRight className="size-[1.2rem] text-yellow-500" />
+              <MoveRight className="size-[1.2rem] text-[#DAA520]" />
             </button>
           </div>
         </motion.div>
@@ -187,7 +187,7 @@ const Home = () => {
               {/* Hover Overlay */}
               <div
                 className="absolute inset-0 flex flex-col p-5 items-center justify-center
-              backdrop-blur-sm bg-green-500
+              backdrop-blur-sm bg-[#DAA520]
               opacity-0 group-hover:opacity-70
               transition-all duration-500 ease-in-out"
               >
@@ -241,7 +241,7 @@ const Home = () => {
                   key={`${loopIndex}-${i}`}
                   className="min-w-[180px] sm:min-w-[220px] md:min-w-[250px] lg:min-w-[300px]
               p-6 bg-white dark:bg-[#111] rounded-xl shadow-md
-              hover:bg-green-500 dark:hover:bg-green-500 hover:text-white transition-all duration-300"
+              hover:bg-[#DAA520] dark:hover:bg-[#DAA520] hover:text-white transition-all duration-300"
                 >
                   <h3 className="text-base sm:text-lg font-semibold text-[#111827]  hover:text-[#FEFEFE] dark:text-white">
                     {value}
@@ -258,7 +258,7 @@ const Home = () => {
         className="py-16 bg-cover bg-center relative"
         style={{ backgroundImage: "url('/lifestyle-bg.jpg')" }}
       >
-        <div className="bg-gradient-to-br from-green-500 to-[#FEFEFE] dark:bg-gradient-to-br dark:from-green-500 dark:to-[#111] dark:bg-[#111] absolute inset-0"></div>
+        <div className="bg-gradient-to-br from-[#DAA520] to-[#FEFEFE] dark:bg-gradient-to-br dark:from-[#DAA520] dark:to-[#111] dark:bg-[#111] absolute inset-0"></div>
         <motion.div
           variants={fadeInVariants("up")}
           initial="hidden"
@@ -274,7 +274,7 @@ const Home = () => {
       </section>
 
       {/* What Our Customers Say */}
-      <section className="py-16 px-6 z-10 bg-green-500 dark:bg-green-500 text-center overflow-hidden">
+      <section className="py-16 px-6 z-10 bg-[#DAA520] dark:bg-[#DAA520] text-center overflow-hidden">
         <h2 className="text-3xl font-bold mb-20 text-black dark:text-white">
           What Our Customers Say
         </h2>
@@ -333,7 +333,7 @@ const Home = () => {
         <p className="mb-6">Discover exclusive watches crafted for elegance.</p>
         <Link
           to="/products"
-          className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg"
+          className="bg-[#DAA520] text-white px-6 py-3 rounded-xl font-semibold shadow-lg"
         >
           Shop Now
         </Link>

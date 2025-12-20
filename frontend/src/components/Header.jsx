@@ -34,7 +34,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-green-700 dark:bg-black shadow-md">
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#DAA520] dark:bg-black shadow-md">
       {/* Main Header Row */}
       <div className="grid grid-cols-3 items-center px-4 sm:px-6 py-4">
         {/* Left - Menu */}
@@ -65,7 +65,7 @@ const Header = () => {
                         className="group flex items-center gap-3 px-3 py-2 rounded-lg font-medium
                           transition-colors duration-300
                         text-gray-800 dark:text-gray-200
-                        hover:text-green-500 dark:hover:text-green-500"
+                        hover:text-[#B8860B] dark:hover:text-[#B8860B]"
                       >
                         <Icon className="w-5 h-5 shrink-0 transition-colors duration-300" />
                         {item.title}
@@ -140,7 +140,7 @@ const Header = () => {
                 tabIndex={0}
                 role="button"
                 className="btn btn-circle transition-all duration-300
-                bg-green-700 hover:border-2 hover:border-white text-white dark:bg-[#0B0B0D] dark:text-white shadow-none border-green-700 dark:border-[#111]"
+                bg-[#DAA520] hover:border-2 hover:border-white text-white dark:bg-[#0B0B0D] dark:text-white shadow-none border-[#DAA520] dark:border-[#111]"
               >
                 <ShoppingCart className="w-5 h-5" />
               </div>
@@ -154,7 +154,7 @@ const Header = () => {
                   <div className="card-actions">
                     <Link
                       to="/cart"
-                      className="btn btn-primary btn-block bg-green-500 hover:bg-green-600 border-none"
+                      className="btn btn-primary btn-block bg-[#DAA520] hover:bg-[#B8860B] border-none"
                     >
                       View cart
                     </Link>
@@ -169,7 +169,7 @@ const Header = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle avatar hover:bg-green-500 hover:border hover:border-green-500 transition-colors"
+              className="btn btn-ghost btn-circle avatar hover:[#DAA520] hover:border hover:border-white transition-colors"
             >
               <div className="w-9 h-9 rounded-full overflow-hidden">
                 {/* Avatar from backend context */}
@@ -187,7 +187,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/user/profile"}
-                  className="font-semibold text-[#1D1D1D] dark:text-white hover:bg-green-500 dark:hover:bg-green-500 transition-colors"
+                  className="font-semibold text-[#1D1D1D] dark:text-white hover:bg-[#B8860B] dark:hover:bg-[#B8860B] transition-colors"
                 >
                   Profile
                 </Link>

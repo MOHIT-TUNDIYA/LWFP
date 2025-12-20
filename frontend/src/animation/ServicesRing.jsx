@@ -51,8 +51,8 @@ const ServicesRing = () => {
               <motion.div
                 key={i}
                 className="absolute flex items-center justify-center
-                           rounded-full bg-green-500 dark:bg-[#111] dark:hover:bg-green-600 shadow-md
-                           hover:bg-green-600 hover:text-white
+                           rounded-full bg-[#DAA520] dark:bg-[#111] dark:hover:bg-[#DAA520] shadow-md
+                           hover:bg-[#DAA520] hover:text-white
                            transition-all duration-300"
                 style={{
                   width: config.bubble,
